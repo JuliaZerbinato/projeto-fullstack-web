@@ -13,5 +13,7 @@ app.use(bodyParser.json());
 
 // Cors
 
+// Rotas
+
 // Exportações
 module.exports = app;
