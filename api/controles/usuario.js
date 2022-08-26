@@ -1,8 +1,7 @@
 'use strict'
 
-var Usuario = require('../modelos/usuarios');
+var Usuario = require('../modelos/usuario');
 
-// Rotas
 function inicio(req, res) {
     res.status(200).send({
         message: 'Hello word!'
